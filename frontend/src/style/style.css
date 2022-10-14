@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 15px 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+}
+.wrap{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cart{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    padding: 20px 25px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.cart-name{
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+}
+.cart-info{
+    margin-top: 35px;
+}
+.cart-email{
+    text-decoration: underline;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    margin-top: 20px;
+    text-align: left;
+    word-break: break-word;
+}
+.cart-phone{
+    color: gray;
+    display: flex;
+    gap: 0px 14px;
+}
+.wrap-input{
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 40px;
+    width: 95%;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(100, 100, 100, 0.53);
+    padding-left: 10px;
+}
+.fa-search{
+    font-size: 20px;
+    margin-left: -30px;
+}
+.fa-phone{
+    font-size: 20px;
+    color: purple;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: purple;
+}
+.wrap-popup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.popup{
+    padding: 40px;
+    border-radius: 50px;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+.popup-info{
+    margin-top: 25px;
+    display: flex;
+    gap:0px 100px;
+}
+.popup-name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.my-line{
+    text-decoration: underline;
+    color: gray;
+}
+.left-info, .right-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0px;
+}
+.right-info{
+    word-break: normal;
+    color: gray;
+}
+.right-p{
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.popup-desc{
+    margin-top: 25px;
+}
+.desc-title{
+    margin-top: 20px;
+}
+.desc-text{
+    margin-top: 10px;
+    color: gray;
+    word-break: break-word;
+}
+.popup-close{
+    position: absolute;
+    margin-top: -63px;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 30px;
+}
+.popup-close-wrap{
+    display: flex;
+    justify-content: center;
+}
+.popup-close-line1{
+    transform: rotate(45deg);
+    top: 24px;
+    left: 8px;
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: white;
+}
+.popup-close-line2{
+    transform: rotate(-45deg);
+    top: 24px;
+    left: 8px;
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: white;
+}
+.popup-hide{
+    display: none;
+}
